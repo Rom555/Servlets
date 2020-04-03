@@ -13,6 +13,7 @@
 <body>
     <p>Hello, ${u_login}</p>
     <p>Your password: ${cookie.get("u_password").value}</p>
+    <a href="image">Get image</a>
     <form action="login" method="post">
         <input type="submit" value="Exit">
     </form>
