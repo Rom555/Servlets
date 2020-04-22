@@ -14,7 +14,7 @@
 </head>
 <body>
     <h2>Enter</h2>
-    <form action="Site" method="post">
+    <form action="IndexServlet" method="post">
         <label>Login</label>
         <input  name="u_login"><br>
         <label>Password</label>
