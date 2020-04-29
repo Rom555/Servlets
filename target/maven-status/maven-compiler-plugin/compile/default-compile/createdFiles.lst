@@ -1,4 +1,5 @@
 com\my\servlet\HelloServlet.class
+com\my\servlet\Upload.class
 com\my\servlet\UserCheck.class
 com\my\servlet\ImageServlet.class
 com\my\servlet\UserDB.class

@@ -16,5 +16,12 @@
     <form method="post" action="HelloServlet" >
         <input type="submit" value="Exit">
     </form>
+    <h3>File Upload:</h3>
+    Select a file to upload: <br />
+    <form action = "UploadServlet" method = "post" enctype = "multipart/form-data">
+        <input type="file" name="file" />
+        <br />
+        <input type = "submit" value = "Upload File" />
+    </form>
 </body>
 </html>

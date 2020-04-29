@@ -5,6 +5,7 @@
   Time: 10:49
   To change this template use File | Settings | File Templates.
 --%>
+<%@page isErrorPage="true" %>
 <%@page contentType="text/html; charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -13,5 +14,7 @@
 </head>
 <body>
     <h3>Sorry an exception occurred!</h3>
+
+    Exception is: <%= exception.getMessage()%>
 </body>
 </html>
